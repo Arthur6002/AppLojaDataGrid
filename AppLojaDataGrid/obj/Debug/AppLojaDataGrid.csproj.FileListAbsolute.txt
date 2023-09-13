@@ -1,0 +1,11 @@
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\bin\Debug\AppLojaDataGrid.exe.config
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\bin\Debug\AppLojaDataGrid.exe
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\bin\Debug\AppLojaDataGrid.pdb
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.AssemblyReference.cache
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.SuggestedBindingRedirects.cache
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.Form1.resources
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.Properties.Resources.resources
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.GenerateResource.cache
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.exe
+C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.pdb
