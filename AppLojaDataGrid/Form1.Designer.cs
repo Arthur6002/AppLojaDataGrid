@@ -39,6 +39,9 @@
             this.btnGravar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.dgvProdutos = new System.Windows.Forms.DataGridView();
+            this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvQuantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvValorunitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,9 +50,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblValorTotal = new System.Windows.Forms.Label();
             this.lblVenda = new System.Windows.Forms.Label();
-            this.Descricao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Valorunitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,7 +99,7 @@
             this.btnRemover.TabIndex = 6;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = true;
-            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
+            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click_1);
             // 
             // btnAlterar
             // 
@@ -109,6 +109,7 @@
             this.btnAlterar.TabIndex = 7;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnCancelar
             // 
@@ -118,6 +119,7 @@
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGravar
             // 
@@ -127,6 +129,7 @@
             this.btnGravar.TabIndex = 9;
             this.btnGravar.Text = "Gravar";
             this.btnGravar.UseVisualStyleBackColor = true;
+            this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
             // 
             // btnFechar
             // 
@@ -145,13 +148,31 @@
             this.dgvProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProdutos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Descricao,
-            this.Quantidade,
-            this.Valorunitario});
+            this.dgvQuantidade,
+            this.dgvValorunitario});
             this.dgvProdutos.Location = new System.Drawing.Point(36, 201);
             this.dgvProdutos.Name = "dgvProdutos";
             this.dgvProdutos.ReadOnly = true;
             this.dgvProdutos.Size = new System.Drawing.Size(511, 183);
             this.dgvProdutos.TabIndex = 11;
+            // 
+            // Descricao
+            // 
+            this.Descricao.HeaderText = "Descricao";
+            this.Descricao.Name = "Descricao";
+            this.Descricao.ReadOnly = true;
+            // 
+            // dgvQuantidade
+            // 
+            this.dgvQuantidade.HeaderText = "Quantidade";
+            this.dgvQuantidade.Name = "dgvQuantidade";
+            this.dgvQuantidade.ReadOnly = true;
+            // 
+            // dgvValorunitario
+            // 
+            this.dgvValorunitario.HeaderText = "Valor Unitario";
+            this.dgvValorunitario.Name = "dgvValorunitario";
+            this.dgvValorunitario.ReadOnly = true;
             // 
             // label1
             // 
@@ -183,7 +204,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 156);
+            this.label4.Location = new System.Drawing.Point(16, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 13);
             this.label4.TabIndex = 15;
@@ -224,24 +245,6 @@
             this.lblVenda.Size = new System.Drawing.Size(13, 13);
             this.lblVenda.TabIndex = 19;
             this.lblVenda.Text = "1";
-            // 
-            // Descricao
-            // 
-            this.Descricao.HeaderText = "Descricao";
-            this.Descricao.Name = "Descricao";
-            this.Descricao.ReadOnly = true;
-            // 
-            // Quantidade
-            // 
-            this.Quantidade.HeaderText = "Quantidade";
-            this.Quantidade.Name = "Quantidade";
-            this.Quantidade.ReadOnly = true;
-            // 
-            // Valorunitario
-            // 
-            this.Valorunitario.HeaderText = "Valor Unitario";
-            this.Valorunitario.Name = "Valorunitario";
-            this.Valorunitario.ReadOnly = true;
             // 
             // Form1
             // 
@@ -297,8 +300,8 @@
         private System.Windows.Forms.Label lblValorTotal;
         private System.Windows.Forms.Label lblVenda;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descricao;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantidade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Valorunitario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvQuantidade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvValorunitario;
     }
 }
 

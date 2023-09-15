@@ -9,3 +9,13 @@ C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.
 C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.CoreCompileInputs.cache
 C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.exe
 C:\Users\Arthu\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.pdb
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\bin\Debug\AppLojaDataGrid.exe.config
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\bin\Debug\AppLojaDataGrid.exe
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\bin\Debug\AppLojaDataGrid.pdb
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.AssemblyReference.cache
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.Form1.resources
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.Properties.Resources.resources
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.GenerateResource.cache
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.exe
+C:\Users\Usuario\AppLojaDataGrid\AppLojaDataGrid\obj\Debug\AppLojaDataGrid.pdb
